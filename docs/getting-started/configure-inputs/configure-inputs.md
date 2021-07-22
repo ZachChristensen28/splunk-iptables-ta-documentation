@@ -45,4 +45,4 @@ index=<chosen index> sourcetype=linux:iptables
 
 If you see data then you are all set! If you are not seeing your data, see [Troubleshooting Monitoring Inputs](../troubleshooting/troubleshoot-inputs.md).
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

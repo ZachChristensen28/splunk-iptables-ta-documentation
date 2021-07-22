@@ -67,4 +67,4 @@ filename = <your_new_file.csv>
 Once the change has been made it may take a few minutes for the changes to take effect. If you don't want to wait you can append `| extract reload=true` to your Splunk search to force a reload of the configurations. You should now see the correct actions being populated and no longer will show "unknown."
 
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

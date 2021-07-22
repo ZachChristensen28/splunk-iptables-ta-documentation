@@ -9,4 +9,4 @@ iptables_frametypes.csv | iptables_frametypes_lookup | Maps Frame Type codes to 
 iptables_icmp_codes.csv | iptables_icmp_codes_lookup | Maps ICMP codes to their descriptive value.
 iptables_transport.csv | iptables_transport_lookup | Used to map the transport field to the CIM-compliant value.
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

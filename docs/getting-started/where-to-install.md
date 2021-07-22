@@ -27,4 +27,4 @@ Deployment Server | Yes | You can use a deployment server to push this add-on to
 
 \* For more information, see Splunk's [documentation](https://docs.splunk.com/Documentation/AddOns/released/Overview/Installingadd-ons) on installing Add-ons.
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

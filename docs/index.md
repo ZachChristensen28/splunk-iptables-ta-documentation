@@ -27,4 +27,4 @@ Add-on has a web UI | No, this add-on does not include views.
 
 [Get Started](getting-started/prepare-logs-for-splunk){ .md-button .md-button--primary }
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

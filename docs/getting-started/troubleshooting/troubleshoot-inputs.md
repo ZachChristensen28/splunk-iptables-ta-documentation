@@ -10,4 +10,4 @@ Splunk Forwarder communication | It is possible that the Splunk Universal Forwar
 
 For more troubleshooting steps, see [Splunk Docs: Troubleshooting Data](https://docs.splunk.com/Documentation/Splunk/latest/Troubleshooting/Cantfinddata).
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

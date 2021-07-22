@@ -34,4 +34,4 @@ By default UFW and Firewalld use their own log prefixes:
 
  If custom log prefixes are being used, additional setup may be required for this add-on to work appropriately. See [Using Custom Log Prefixes](../../guides/guide-custom-log-prefix) in this documentation for more information.
 
---8<-- "docs/includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"

@@ -21,7 +21,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-Version | 1.3.6 - [Splunkbase](https://splunkbase.splunk.com/app/4490/) \| [GitHub](https://github.com/ZachChristensen28/TA-linux_iptables)
+Version | 1.3.7 - [Splunkbase](https://splunkbase.splunk.com/app/4490/) \| [GitHub](https://github.com/ZachChristensen28/TA-linux_iptables)
 Vendor Products | REHL/CentOS - Firewalld, Ubuntu - UFW, built-in IPtables
 Add-on has a web UI | No, this add-on does not include views.
 

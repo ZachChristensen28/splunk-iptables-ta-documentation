@@ -23,7 +23,7 @@ markdown_extensions:
 theme:
   name: material
   logo: assets/images/logo.png
-  favicon: assets/images/favicon.png
+  favicon: assets/images/logo.png
   icon:
     repo: fontawesome/brands/github
   features:
@@ -36,16 +36,27 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: green
+      accent: green
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: green
+      accent: green
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
-extra_css:
-  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zachary-christensen28/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZachChristensen28
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ZachTheSplunker
 
 nav:
   - Home: index.md

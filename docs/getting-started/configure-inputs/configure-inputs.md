@@ -24,8 +24,7 @@ Install the UF according to [Splunk Docs: Install the Universal Forwarder](https
 
 Once installed the configurations can be made. The following is a sample inputs.conf that can be pushed using a deployment server or configured on the UF itself.
 
-```shell
-# inputs.conf
+```cfg title="inputs.conf"
 [monitor:///var/log/iptables.log]
 disabled = 0
 sourcetype = linux:iptables
@@ -39,7 +38,7 @@ Push the configuration to the forwarder, if using a deployment server, or restar
 
 Verify the setup has completed successfully by navigating to Splunk web and running a search similar to the following:
 
-```
+```text
 index=<chosen index> sourcetype=linux:iptables
 ```
 

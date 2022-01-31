@@ -1,7 +1,7 @@
-# splunk-iptables-ta-documentation
+# Iptables Add-on for Splunk Documentation
 
-[![Documentation Status](https://readthedocs.org/projects/splunk-iptables-ta-documentation/badge/?version=latest)](https://splunk-iptables-ta-documentation.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://github.com/ZachChristensen28/splunk-iptables-ta-documentation/actions/workflows/ci.yml/badge.svg)](https://splunk-iptables.ztsplunker.com)
 
-## Documentation
+## Documentation Site
 
-Full documentation can be found at https://splunk-iptables-ta-documentation.rtfd.io.
+[https://splunk-iptables.ztsplunker.com](https://splunk-iptables.ztsplunker.com)

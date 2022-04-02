@@ -1,5 +1,6 @@
 # Prepare Logs for Splunk
 
+!!! info "Optional"
 
 ## Syslog Setup
 
@@ -21,7 +22,7 @@ Refer to the vender specific documentation on the best-practices to accomplish t
     ```
 
 !!! note
-    Verify the created file will have sufficient privileges for Splunk to monitor the file. 
+    Verify the created file will have sufficient privileges for Splunk to monitor the file.
 
 ## Log Prefix
 

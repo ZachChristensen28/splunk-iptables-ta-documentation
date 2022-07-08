@@ -1,8 +1,11 @@
 # Release Notes for the Linux Iptables Add-on for Splunk
 
-## v1.3.7 <small>Aug 20, 2021</small>
+## v1.3.8 <small>Jul 8, 2022</small>
 
-### Fixed Issues
+### New
 
-- fixed incorrect app value for UFW events - [#5](https://github.com/ZachChristensen28/TA-linux_iptables/issues/5)
-- updated regex for different UFW log formats - [#8](https://github.com/ZachChristensen28/TA-linux_iptables/issues/8)
+- Added sample configuration for the syslog sourcetype if IPtable data is mixed with syslog data.
+
+### Updated
+
+- Updated log_prefix field extraction to consider log prefixes surrounded with quotes.

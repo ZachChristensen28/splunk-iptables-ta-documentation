@@ -32,6 +32,27 @@ sourcetype = linux:iptables
 index = osnixfw
 ```
 
+The above assumes the iptable logs have been split into a separate file (see [Prepare Logs for Splunk](../../prepare-logs-for-splunk/#syslog-setup)). If the iptable logs are mixed with other linux logs, then use the following sample configuration as a guide.
+
+### Mixed Logs
+
+``` cfg title="inputs.conf - for mixed logs"
+[monitor:///var/log/syslog]
+disabled = 0
+sourcetype = syslog
+# optionally specify an index, if configured.
+index = osnix
+```
+
+Then create a local directory within this app and add a props.conf to transform the sourcetype to the correct sourcetype.
+
+``` cfg title="local/props.conf - needed for mixed logs"
+[syslog]
+TRANSFORMS-iptables_sourcetyper = iptables_sourcetyper
+```
+
+This will enable a prebuilt transforms to automatically sourcetype these logs.
+
 Push the configuration to the forwarder, if using a deployment server, or restart the UF if configuring on the UF itself.
 
 ## Verify
